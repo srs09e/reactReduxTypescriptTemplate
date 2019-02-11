@@ -1,0 +1,115 @@
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App{
+  font-family: Helvetica;
+  overflow-x:hidden
+}
+
+.header {
+  overflow: hidden;
+  background-color: #b6f6ff;
+  padding: 20px 10px;
+  border-bottom: 10px solid #c3c3c3;
+  height: 50px;
+  font-size: 40px;
+}
+
+.Closed-header {
+  overflow: hidden;
+  background-color: #b6f6ff;
+  padding: 20px 10px;
+  border-bottom: 10px solid #c3c3c3;
+  height: 30px;
+  font-size: 30px;
+}
+
+.Table-holder {
+  border: 1px solid #c3c3c3;
+  border-bottom: 10px solid #c3c3c3
+}
+
+.Table-icon-holder {
+  display: inline-block;
+  padding: 30px;
+}
+
+.Table-icon {
+  border: 1px solid #c3c3c3;
+  width: 150px;
+  height: 150px;
+  background: url("./icons/table.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.Table-text {
+  position: relative;
+  top: 20%;
+  left: 40%;
+  font-size: 40px;
+}
+
+.Modal-backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.3);
+  padding: 50;
+  z-index: 1;
+}
+
+.Modal-main {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  border: solid brown;
+  border-width: 10px;
+  border-radius: 15px;
+  width: 93%;
+  height: 93%;
+  z-index: 1;
+  overflow: scroll;
+}
+
+.Cell-text {
+  text-align: center;
+}
+
+.Check-table {
+  height: 300px;
+}
+
+.Information-label {
+  font-weight: bold
+}
+
+.btn {
+    width: 48px;
+    height: 48px;
+    padding-left: 10px;
+    border: none;
+    top: 50%;
+}
+
+.addBtn {
+  background:url('./icons/icons8-plus-48.png')
+}
+
+.removeBtn {
+  background:url('./icons/icons8-delete-48.png')
+}
+
